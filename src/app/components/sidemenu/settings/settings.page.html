@@ -1,0 +1,71 @@
+<ion-header>
+  <ion-toolbar color="black">
+    <ion-buttons slot="start">
+      <ion-icon class="back" size="large" name="arrow-back-outline"  routerLink="/dashboard"></ion-icon>
+    </ion-buttons>
+    <ion-title>Account Settings</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+
+  <ion-list>
+    <a (click)="openProfileModal()">
+      <ion-item lines="none">
+        <div class="profile">
+          <ion-avatar>
+            <ion-img src="assets/icon/user.png"></ion-img>
+          </ion-avatar>
+          <ion-card-header class="name">
+            <ion-card-title>Hamza</ion-card-title>
+          </ion-card-header>
+        </div>
+      </ion-item>  
+    </a>
+    <a href="#">
+      <ion-item lines="none" class="warning">
+        <ion-icon slot="start" name="warning-sharp"></ion-icon>
+        <div>For added security, please verify your email address
+        </div>
+      </ion-item>        
+    </a>
+    <a href="#">
+      <ion-item lines="none" class="safety">
+        <ion-icon size="large" slot="start" name="people"></ion-icon>
+        <div class="info">
+          <h2>Manage your trusted contacts</h2>
+          <p>Share your trip status with friends and family in a single trip</p>
+        </div>
+      </ion-item>        
+    </a>
+    <a href="#">
+      <ion-item lines="none">
+        <div class="language">
+          <p>Language</p>
+          <h2>English</h2>
+        </div>
+        <ion-icon slot="end" name="pencil"></ion-icon>
+      </ion-item>        
+    </a>
+    <a href="#">
+      <ion-item lines="none">
+        <ion-label>Privacy Settings</ion-label>
+        <ion-icon slot="end" name="chevron-forward-outline"></ion-icon>
+      </ion-item>        
+    </a>
+    <a href="#">
+      <ion-item lines="none">
+        <ion-label>Security</ion-label>
+        <ion-icon slot="end" name="chevron-forward-outline"></ion-icon>
+      </ion-item>        
+    </a>
+    <a href="#">
+      <ion-item lines="none">
+        <ion-label>Sign out</ion-label>
+        <ion-icon slot="end" name="chevron-forward-outline"></ion-icon>
+      </ion-item>        
+    </a>
+  </ion-list>
+
+</ion-content>

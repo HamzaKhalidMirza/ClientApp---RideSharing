@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    font-family: "Roboto";
+}
+
+ion-toolbar {
+    background-color: #000;
+    color: #fff;
+    font-size: 2rem;
+}
+
+ion-title {
+    font-size: 1.5rem;
+}
+
+ion-list {
+    padding: 20px 16px;
+}
+ion-list a {
+    text-decoration: none;
+}
+ion-list ion-label {
+    color: #000;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+ion-list ion-icon {
+    color: #bbb;
+}

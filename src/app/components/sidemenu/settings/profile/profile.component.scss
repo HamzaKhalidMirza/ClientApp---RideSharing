@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    font-family: "Roboto";
+    font-size: 1rem;
+}
+
+ion-toolbar {
+    background-color: #000;
+    color: #fff;
+    font-size: 2rem;
+}
+
+ion-title {
+    font-size: 1.5rem;
+}
+
+ion-list ion-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+}
+ion-list a {
+    text-decoration: none;
+}
+ion-list ion-label {
+    color: #000;
+    font-weight: 500;
+}
+ion-list ion-icon {
+    color: #bbb;
+}
+
+
+.profile ion-avatar {
+    float: left;
+    width: 100px;
+    height: auto;
+    margin: auto;
+    background-color: #ccc;
+    border: 1px solid #ddd;
+  }
+  .profile ion-avatar ion-img {
+    width: 50px;
+    height: 90px;
+    margin: auto;
+  }
+  .profile .name {
+      margin-top: 20px;
+    float: left;
+    color: #000;
+  }
+
+  .info p {
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+}
+.info h2 {
+    font-weight: 600;
+    margin-top: 5px;
+}
